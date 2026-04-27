@@ -11,8 +11,11 @@
 using namespace std;
 
 class BelahKetupat;
-class LyanagLayang {
+class layanaglayang {
     private:
+    //di = diagonal
+    double di1, di2;
+    double sisi1, sisi2;
     //Lengkapi disini
 
     public:
