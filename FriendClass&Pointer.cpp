@@ -85,8 +85,9 @@ int main() {
     //Lengkapi disini
 
     cout << "\n--- Hasil luas ---" << endl;
-    cout << "Luas Layang-Layang     : " << ObjectLayang.hitungLuas() << endl;
-    cout << "Luas Belah Ketupat     : " <<ObjectBelah.hitunngLuas() <<endl;
+    cout << "Luas Layang-Layang     : " << objeklayang.hitungLuas() << endl;
+    cout << "Luas Belah Ketupat     : " << ObjectBelah.hitungLuas() <<endl;
 
+    tampilkankeliling()
     //Lengkapi disini
 }
