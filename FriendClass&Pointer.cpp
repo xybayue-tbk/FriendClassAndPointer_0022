@@ -45,11 +45,20 @@ class BelahKetupat {
     private:
     //di = diagonal
     double di1, di2;
-    double sisi1, sisi2;
+    double sisi;
     //Lengkapi disini
 
     public:
     void inputData() {
+        cout<<"\nInput diagonal 1 belah ketupat : ";
+        cin>>di1;
+
+        cout<<"Input diagonal 2 belah ketupat : ";
+        cin>>di2;
+
+        cout<<"Input sisi : ";
+        cin>>sisi;
+
         //Lengkapi disini
     }
     double hitungLuas() {
