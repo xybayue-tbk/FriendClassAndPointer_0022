@@ -80,6 +80,7 @@ void tampilkankeliling(layanaglayang l, BelahKetupat b) //Lengkapi disini
 }
 
 int main() {
+    layanaglayang objeklayang;
     //Lengkapi disini
 
     cout << "\n--- Hasil luas ---" << endl;
