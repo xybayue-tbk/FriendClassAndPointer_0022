@@ -20,6 +20,20 @@ class layanaglayang {
 
     public:
 
+    void inputData(){
+    cout<<"Masukan nilai diagonal 1 layang-layang : ";
+    cin>>di1;
+
+    cout<<"Masukan nilai diagonal 2 layang-layang : ";
+    cin>>di2;
+
+    cout<<"Masukan nilai sisi 1 : ";
+    cin>>sisi1;
+
+    cout<<"Masukan nilai sisi 2 : ";
+    cin>>sisi2;
+    }
+
     double hitungLuas() {
         return 0.5 * d1 * d2;
     }
