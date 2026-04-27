@@ -35,9 +35,10 @@ class layanaglayang {
     }
 
     double hitungLuas() {
-        return 0.5 * d1 * d2;
+        return 0.5 * di1 * di2;
     }
     //Lengkapi disini
+    friend void tampilkankeliling(layanaglayang, BelahKetupat);
 };
 
 class BelahKetupat {
