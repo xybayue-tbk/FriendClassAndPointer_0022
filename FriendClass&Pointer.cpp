@@ -90,4 +90,5 @@ int main() {
 
     tampilkankeliling(objeklayang, ObjectBelah);
     //Lengkapi disini
+    return 0;
 }
