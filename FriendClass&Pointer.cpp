@@ -62,8 +62,9 @@ class BelahKetupat {
         //Lengkapi disini
     }
     double hitungLuas() {
-        return 0.5 * d1 * d2;
+        return 0.5 * di1 * di2;
     }
+        friend void tampilkankeliling(layanaglayang, BelahKetupat);
 
     //Lengkapi disini
 };
