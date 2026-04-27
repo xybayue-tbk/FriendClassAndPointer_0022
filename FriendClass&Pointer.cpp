@@ -69,8 +69,13 @@ class BelahKetupat {
     //Lengkapi disini
 };
 
-void tampilkankeliling() //Lengkapi disini
-{
+void tampilkankeliling(layanaglayang l, BelahKetupat b) //Lengkapi disini
+{ 
+    cout << "\n--- Keliling ---" << endl;
+    cout << "Keliling Layang-Layang : " << 2*(l.sisi1 + l.sisi2) << endl;
+
+    cout << "Keliling Belah Ketupat : " << 4*(b.sisi) << endl;
+    
     //Lengkapi disini
 }
 
